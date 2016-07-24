@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<title>Our Love Story</title>
+	<title>Out Love Story - Grace and Yexing</title>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<style type="text/css">
 		@font-face {
@@ -20,56 +20,71 @@
 		<div id="content">
 			<div id="code">
 				<span class="comments">/**</span><br />
-				<span class="space"/><span class="comments">* We are both Fudan SSers and programmers,</span><br />
-				<span class="space"/><span class="comments">* so I write some code to celebrate our 1st anniversary.</span><br />
+                <span class="space"/><span class="comments">* How time flies!!</span><br/>
+				<span class="space"/><span class="comments">* I write some code to recode the milestone in our love story.</span><br />
 				<span class="space"/><span class="comments">*/</span><br />
-				Boy i = <span class="keyword">new</span> Boy(<span class="string">"hackerzhou"</span>);<br />
-				Girl u = <span class="keyword">new</span> Girl(<span class="string">"MaryNee"</span>);<br />
-				<span class="comments">// Nov 2, 2010, I told you I love you. </span><br />
+				Boy i = <span class="keyword">new</span> Boy(<span class="string">"Yexing"</span>);<br />
+				Girl u = <span class="keyword">new</span> Girl(<span class="string">"Grace"</span>);<br />
+                our_love = <span class="number">"10"</span> <br/>
+				<span class="comments">// On June 18th, 2004, we meet each other the first time when we were passing CET-4 and CET-6 exam,</span><br />
+                i.meet(u);<br />
+				<span class="comments">// You were attracted by the sunshine I had, we start dating since then, our_love starts increasing everyday.</span><br />
+                <span class="keyword">while</span> (our_love < 60 ) { <br/>
+                    i.dating_with(u);        <br />
+                    our_love++; <br />
+                }                        <br/>
+				<span class="comments">// On May 5th, 2005, I told you I love you. </span><br />
 				i.love(u);<br />
-				<span class="comments">// Luckily, you accepted and became my girlfriend eversince.</span><br />
-				u.accepted();<br />
-				<span class="comments">// Since then, I miss u every day.</span><br />
-				i.miss(u);<br />
-				<span class="comments">// And take care of u and our love.</span><br />
-				i.takeCareOf(u);<br />
+				<span class="comments">// Luckily, you accepted and became my girlfriend!</span><br />
+				u.accepted(i);<br />
+				<span class="comments">// Since then, we take care of our love every day.</span><br />
+				i.take_care_of(u);<br />
+                u.share_happness_with(i);<br />
+                i.think_of_marry(u);<br />
 				<span class="comments">// You say that you won't be so easy to marry me.</span><br />
-				<span class="comments">// So I keep waiting and I have confidence that you will.</span><br />
+				<span class="comments">// So I work hard and take care you more and I have confidence you will.</span><br />
 				<span class="keyword">boolean</span> isHesitate = <span class="keyword">true</span>;<br />
 				<span class="keyword">while</span> (isHesitate) {<br />
+				<span class="placeholder"/>i.work_hard();<br />
+				<span class="placeholder"/>i.make_plan();<br />
 				<span class="placeholder"/>i.waitFor(u);<br />
-				<span class="placeholder"/><span class="comments">// I think it is an important decision</span><br />
-				<span class="placeholder"/><span class="comments">// and you should think it over.</span><br />
+				<span class="placeholder"/>our_love++;<br />
+				<span class="placeholder"/><span class="comments">// I think the best thing always worth waiting</span><br />
+				<span class="placeholder"/><span class="comments">// I respect your choose, finally - you think over and step forward!</span><br />
 				<span class="placeholder"/>isHesitate = u.thinkOver();<br />
 				}<br />
-				<span class="comments">// After a romantic wedding, we will live happily ever after.</span><br />
-				i.marry(u);<br />
+				<span class="comments">// On Aug 16th, 2012, after a romantic wedding, you married me, our live start with a new page!.</span><br />
+				u.marry(i);<br />
 				i.liveHappilyWith(u);<br />
+				<span class="comments">// On Jan 2th, 2015, our little boy - Xiaodan (Yejincheng) was born! </span><br />
+				Boy Xiaodan = <span class="keyword">new</span> Boy(<span class="string">"Xiaodan"</span>);<br />
+				i.liveHappilyWith(u,Xiaodan);<br />
+				<span class="comments">// Our journey is continuing..
 			</div>
 			<div id="loveHeart">
 				<canvas id="garden"></canvas>
 				<div id="words">
 					<div id="messages">
-						Minyue, I have fallen in love with you for
+						Grace, I have fallen in love with you for
 						<div id="elapseClock"></div>
 					</div>
 					<div id="loveu">
-						Love u forever and ever.<br/>
-						<div class="signature">- hackerzhou</div>
+						Love u everyday!<br/>
+						<div class="signature">- Yexing</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div id="copyright">
-			Inspired by <a href="http://www.openrise.com/lab/FlowerPower/">FlowerPower</a> project.<br />
-			Copyright © 2011 <a href='http://hackerzhou.me'>hackerzhou.me</a> 2009-2011
+			Inspired by <a target="_blank" href="https://github.com/hackerzhou/Love">hackerzhou.me</a> project.<br />
+            Copyright © 2016 <a href="https://grace.yexingok.cc">Yexing</a> 2016 <br/ >
 		</div>
 	</div>
 	<script type="text/javascript">
 		var offsetX = $("#loveHeart").width() / 2;
 		var offsetY = $("#loveHeart").height() / 2 - 55;
 		var together = new Date();
-		together.setFullYear(2010, 10, 2);
+		together.setFullYear(2005, 5, 5);
 		together.setHours(20);
 		together.setMinutes(0);
 		together.setSeconds(0);
